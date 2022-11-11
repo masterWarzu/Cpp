@@ -1,5 +1,5 @@
-//Майкл Доусон - "Изучаем С++ через программирование игр"
-// Утраченный клад. Персонализированная приключенческая игра.
+// РњР°Р№РєР» Р”РѕСѓСЃРѕРЅ - "РР·СѓС‡Р°РµРј РЎ++ С‡РµСЂРµР· РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёРµ РёРіСЂ"
+// РЈС‚СЂР°С‡РµРЅРЅС‹Р№ РєР»Р°Рґ. РџРµСЂСЃРѕРЅР°Р»РёР·РёСЂРѕРІР°РЅРЅР°СЏ РїСЂРёРєР»СЋС‡РµРЅС‡РµСЃРєР°СЏ РёРіСЂР°.
 
 #include <iostream>
 #include <string>
@@ -13,7 +13,7 @@ int main()
 	const int GOLD_PIECES = 900;
 	int adventurers, killed, survivors;
 	string leader;
-	// получаем информацию
+	// ГЇГ®Г«ГіГ·Г ГҐГ¬ ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГѕ
 	cout << "Welcome to Lost Fortune\n\n";
 	cout << "Please enter the following for your personalized adventure\n";
 	cout << "Enter a number: ";
@@ -25,7 +25,7 @@ int main()
 	cin >> leader;
 	
 
-	// сюжет
+	// Г±ГѕГ¦ГҐГІ
 	cout << "\nA brave group of " << adventurers << " set out on a quest ";
 	cout << "-- in search of the lost treasure of the Ancient Dwarves. ";
 	cout << "The group was led by that legendary rogue, " << leader << ".\n";
