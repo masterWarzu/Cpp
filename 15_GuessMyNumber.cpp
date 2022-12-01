@@ -32,4 +32,6 @@ int main()
 			cout << "\nThat's it! You got it in " << tries << " guesses!\n";
 		}
 	} while (guess != secretNumber);
+	
+	return 0;
 }
