@@ -1,4 +1,4 @@
-//Майкл Доусон - "Изучаем С++ через программирование игр"
+// Майкл Доусон - "Изучаем С++ через программирование игр"
 // Программа GameStats демонстрирует объявление и инициализацию переменных.
 
 #include <iostream>
@@ -16,9 +16,7 @@ int main()
 	cout << "\nscore: " << score << endl;
 	cout << "distance: " << distance << endl;
 	cout << "plsyAgain: " << playAgain << endl;
-  
-	// пропускаем shieldsUp поскольку булевы значения как правило не выводятся на экран.
-  
+	// пропускаем shieldsUp поскольку булевы значения как правило не выводятся на экран
 	cout << "lives: " << lives << endl;
 	cout << "aliensKilled: " << aliensKilled << endl;
 	cout << "engineTemp: " << engineTemp << endl;
